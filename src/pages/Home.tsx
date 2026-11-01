@@ -1,5 +1,4 @@
 import FadeIn from '../components/FadeIn'
-import Logo_bg from '../assets/logo_bg-remove.png'
 import LogoKubataWe from '../assets/kubataWeb-removebg.png'
 import SectionTitle from '../components/ui/SectionTitle'
 import Button from '../components/ui/Button'
@@ -16,19 +15,10 @@ export default function Home() {
 />
       {/* HERO */}
       <main className="bg-[var(--color-primary-900)] text-white relative overflow-hidden">
-        <section className="max-w-7xl mx-auto px-6 py-12 md:py-18 lg:py-24">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <section className="max-w-7xl mx-auto px-6 py-8 md:py-18 lg:py-24">
+          <div className=" items-center">
             
-            <div className="max-w-xl">
-              <FadeIn>
-                <article className="text-center">
-                  <div className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-white/80 mb-6">
-                    <span className="w-8 h-px bg-[var(--color-primary-500)]"></span>
-                    Agência Digital
-                    <span className="w-8 h-px bg-[var(--color-primary-500)]"></span>
-                  </div>
-                </article>
-              </FadeIn>
+            <article className="max-w-4xl">
 
               <FadeIn delay={0.1}>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.12] mb-6 tracking-tight">
@@ -49,16 +39,7 @@ export default function Home() {
                   <Button to="/solucoes" variant="outline">Ver soluções</Button>
                 </div>
               </FadeIn>
-            </div>
-
-            {/* Espaço para imagem */}
-            <FadeIn delay={0.2} direction="right">
-              <div className="relative flex items-center justify-center">
-                <div className="relative w-full max-w-md aspect-square">
-                  <img src={Logo_bg} alt="Logo Kubata Web - Hero" />
-                </div>
-              </div>
-            </FadeIn>
+            </article>
           </div>
         </section>
       </main>

@@ -73,7 +73,7 @@ export default function Contacto() {
             <article className="space-y-6">
               <FadeIn delay={0.1}>
                 <a
-                  href="tel:+244900000000"
+                  href="tel:+244958019038"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-primary-500)] transition-colors">
@@ -84,7 +84,7 @@ export default function Contacto() {
                   <div>
                     <p className="font-medium text-[var(--color-primary-900)] mb-1">Telefone</p>
                     <p className="text-[var(--color-text-muted)] group-hover:text-[var(--color-primary-500)] transition-colors">
-                      +244 900 000 000
+                      +244 958 019 038
                     </p>
                   </div>
                 </a>
@@ -92,7 +92,7 @@ export default function Contacto() {
 
               <FadeIn delay={0.15}>
                 <a
-                  href="mailto:contacto@kubataweb.ao"
+                  href="mailto:contacto.kubataweb@gmail.com"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-primary-500)] transition-colors">
@@ -103,7 +103,7 @@ export default function Contacto() {
                   <div>
                     <p className="font-medium text-[var(--color-primary-900)] mb-1">Email</p>
                     <p className="text-[var(--color-text-muted)] group-hover:text-[var(--color-primary-500)] transition-colors">
-                      contacto@kubataweb.ao
+                      contacto.kubataweb@gmail.com
                     </p>
                   </div>
                 </a>
@@ -120,7 +120,7 @@ export default function Contacto() {
                   <div>
                     <p className="font-medium text-[var(--color-primary-900)] mb-1">Endereço</p>
                     <p className="text-[var(--color-text-muted)]">
-                      Luanda, Angola
+                      Talatona, Luanda - Angola
                     </p>
                   </div>
                 </div>
