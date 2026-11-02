@@ -8,7 +8,8 @@ interface SEOProps {
 
 export default function SEO({ title, description, url = '' }: SEOProps) {
   const fullTitle = `${title} | Kubata Web`
-  const siteUrl = 'https://kubataweb.ao'
+  const siteUrl = 'https://kubata-web.vercel.app'
+  
 
   return (
     <Helmet>
