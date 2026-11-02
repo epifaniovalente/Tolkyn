@@ -176,7 +176,7 @@ export default function Contacto() {
                     {...register('assunto')}
                     className="w-full px-4 py-2 rounded-sm border border-[var(--color-border)] bg-[var(--color-surface-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-500)] transition"
                   >
-                    <option value="" disabled >Seleciona um serviço</option>
+                    <option value="" disabled selected>Seleciona um serviço</option>
                     {assuntos.map((item) => (
                       <option key={item} value={item}>
                         {item}
