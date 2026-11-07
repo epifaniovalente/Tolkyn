@@ -1,4 +1,5 @@
 import FadeIn from '../components/FadeIn'
+import { PrecoSection } from '../components/PrecoSection'
 import SEO from '../components/SEO'
 import SectionTitle from '../components/ui/SectionTitle'
 import { servicos } from '../data/servicos'
@@ -48,7 +49,7 @@ export default function Solucoes() {
           />
         </FadeIn>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {servicos.map((item, index) => (
             <FadeIn key={item.title} delay={index * 0.08}>
               <div className="group bg-[var(--color-surface-alt)] rounded-sm p-4  hover:border-blue-200 transition-all h-full">
@@ -64,8 +65,10 @@ export default function Solucoes() {
               </div>
             </FadeIn>
           ))}
-        </div>
+        </article>
       </div>
+
+      <PrecoSection/>
     </section>
   )
 }

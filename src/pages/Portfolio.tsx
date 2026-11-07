@@ -16,7 +16,7 @@ export default function Portfolio() {
     <section className="py-24 bg-white">
       <SEO 
   title="Portfólio"
-  description="Conheça alguns dos projetos desenvolvidos pela Kubata Web."
+  description="Conheça alguns dos projetos desenvolvidos pela Tolkyn Web."
   url="/portfolio"
 />
       <div className="max-w-7xl mx-auto px-6">

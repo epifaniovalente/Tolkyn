@@ -1,5 +1,5 @@
 import FadeIn from '../components/FadeIn'
-import LogoKubataWe from '../assets/kubataWeb-removebg.png'
+import LogoTolkyn from '../assets/tolkyn_removebg.png'
 import SectionTitle from '../components/ui/SectionTitle'
 import Button from '../components/ui/Button'
 import SEO from '../components/SEO'
@@ -84,16 +84,16 @@ export default function Home() {
       {/* CRIADO PARA QUEM */}
       <section className="py-24 bg-white relative overflow-hidden">
         <div className="absolute top-5 left-5 w-24 h-24">
-        <img src={LogoKubataWe} alt="" />
+        <img src={LogoTolkyn} alt="" />
         </div>
         
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <FadeIn>
             <SectionTitle
-              label="Para quem é a Kubata Web"
+              label="Para quem é a Tolkyn "
               title="Criado para quem está a crescer"
-              description=" Na Kubata Web, acreditamos que cada fase de crescimento tem os seus desafios 
+              description=" Na Tolkyn, acreditamos que cada fase de crescimento tem os seus desafios 
                 e oportunidades. Por isso, criamos soluções digitais pensadas para o teu momento."
               center
             />
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <FadeIn>
             <SectionTitle
-              label="Kubata Web"
+              label="Tolkyn"
               title="Um processo simples e transparente"
               description="Do primeiro contato à entrega final, um fluxo claro e objetivo."
               center
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               
               <span className="w-28 h-28 ">
-                <img src={LogoKubataWe} alt="logo Kubata Web" className='w-full '/>
+                <img src={LogoTolkyn} alt="logo Tolkyn Web" className='w-full '/>
                 </span>
             </div>
           </FadeIn>

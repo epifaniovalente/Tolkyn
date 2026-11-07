@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { navLinks } from '../data/navegacao'
-import Logo_bg from '../assets/logo_bg-remove.png'
+import Logo_bg from '../assets/Logo_Tolkyn.png'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -26,10 +26,10 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <span className="w-10 h-10 flex items-center justify-center group-hover:scale-105 transition-transform">
-              <img src={Logo_bg} alt="Logo Kubata Web" />
+              <img src={Logo_bg} alt="Logo Tolkyn" />
             </span>
             <span className="font-semibold text-[var(--color-primary-900)] text-lg tracking-tight">
-              Kubata Web
+              Tolkyn
             </span>
           </Link>
 

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Logo_bg from '../assets/logo_bg-remove.png'
+import Logo_bg from '../assets/Logo_Tolkyn.png'
 import { navLinks } from '../data/navegacao'
 
 export default function Footer() {
@@ -11,10 +11,10 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 flex items-center justify-center">
                 
-                  <img src={Logo_bg} alt="Logo Kubata Web - Hero" />
+                  <img src={Logo_bg} alt="Logo Tolkyn - Hero" />
                 
               </div>
-              <span className="font-semibold text-lg">Kubata Web</span>
+              <span className="font-semibold text-lg">Tolkyn</span>
             </div>
             <p className="text-white/70 text-sm max-w-xs">
               Soluções digitais sob medida para quem está a construir o futuro.
@@ -38,7 +38,7 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold mb-3 text-sm">Contacto</h4>
               <ul className="space-y-2 text-sm text-white/70">
-                <li>contacto@kubataweb.ao</li>
+                <li>contacto.Tolkyn@gmail.cmo</li>
                 <li>WhatsApp disponível</li>
               </ul>
             </div>
@@ -46,7 +46,7 @@ export default function Footer() {
         </section>
 
         <section className="border-t border-white/10 mt-10 pt-6 text-sm text-white/50">
-          © {new Date().getFullYear()} Kubata Web. Todos os direitos reservados.
+          © {new Date().getFullYear()} Tolkyn. Todos os direitos reservados.
         </section>
       </main>
     </footer>

@@ -43,7 +43,7 @@ export default function Contacto() {
   const onSubmit = (data: ContactForm) => {
     const phone = '244958019038'
 
-    const text = `Olá Kubata Web! %0A%0A*Nome:* ${data.nome}%0A*Email:* ${data.email}%0A*Assunto:* ${data.assunto}%0A%0A*Mensagem:*%0A${data.mensagem}`
+    const text = `Olá Tolkyn! %0A%0A*Nome:* ${data.nome}%0A*Email:* ${data.email}%0A*Assunto:* ${data.assunto}%0A%0A*Mensagem:*%0A${data.mensagem}`
 
     const url = `https://wa.me/${phone}?text=${text}`
     window.open(url, '_blank')
@@ -53,7 +53,7 @@ export default function Contacto() {
     <main className="bg-[var(--color-surface-alt)] py-24 relative overflow-hidden">
       <SEO 
   title="Contacto"
-  description="Entre em contacto com a Kubata Web. Pedido de proposta rápido e resposta em menos de 24 horas."
+  description="Entre em contacto com a Tolkyn. Pedido de proposta rápido e resposta em menos de 24 horas."
   url="/contacto"
 />
 
@@ -92,7 +92,7 @@ export default function Contacto() {
 
               <FadeIn delay={0.15}>
                 <a
-                  href="mailto:contacto.kubataweb@gmail.com"
+                  href="mailto:contacto.Tolkynweb@gmail.com"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-primary-500)] transition-colors">
@@ -103,7 +103,7 @@ export default function Contacto() {
                   <div>
                     <p className="font-medium text-[var(--color-primary-900)] mb-1">Email</p>
                     <p className="text-[var(--color-text-muted)] group-hover:text-[var(--color-primary-500)] transition-colors">
-                      contacto.kubataweb@gmail.com
+                      contacto.Tolkyn@gmail.com
                     </p>
                   </div>
                 </a>

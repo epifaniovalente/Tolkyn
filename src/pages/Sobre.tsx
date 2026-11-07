@@ -1,5 +1,5 @@
 import FadeIn from '../components/FadeIn'
-import logoKubataWeb from '../assets/logo_bg-remove.png'
+import logoTolkyn from '../assets/tolkyn_removebg.png'
 import SectionTitle from '../components/ui/SectionTitle'
 import Button from '../components/ui/Button'
 import SEO from '../components/SEO'
@@ -9,14 +9,14 @@ export default function Sobre() {
     <>
     <SEO 
   title="Sobre nós"
-  description="Conheça a Kubata Web, a nossa história, valores e localização em Luanda, Angola."
+  description="Conheça a Tolkyn Web, a nossa história, valores e localização em Luanda, Angola."
   url="/sobre"
 />
       {/* Hero Sobre */}
       <section className="bg-[var(--color-primary-900)] text-white py-24 relative overflow-hidden">
         {/* ======= IMAGEM DE FUNDO(LOGO) ========= */}
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full">
-          <img src={logoKubataWeb} alt="logo Kubata Web" className=''/>
+          <img src={logoTolkyn} alt="logo Tolkyn" className=''/>
         </div>
         
         <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -32,7 +32,7 @@ export default function Sobre() {
                 Construímos soluções digitais com propósito
               </h1>
               <p className="text-lg text-white/75 leading-relaxed">
-                A Kubata Web nasceu da vontade de tornar a tecnologia acessível, 
+                A Tolkyn nasceu da vontade de tornar a tecnologia acessível, 
                 profissional e realmente útil para quem está a crescer.
               </p>
             </div>
